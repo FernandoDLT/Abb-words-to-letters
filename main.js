@@ -27,4 +27,8 @@ function abbrevName(name){
     return name.split(" ").map(el => el[0].toUpperCase()).join(".")
  }
 
- console.log(abbrevName('Biggie Doo'))
+ console.log(abbrevName('Biggie Doo')) // returns B.D
+ console.log(abbrevName('John Wayne')) // returns B.D
+ console.log(abbrevName('Larry david')) // returns L.D
+ console.log(abbrevName('Earth wind and fire')) // returns E.W.A.F
+ console.log(abbrevName('david lee Roth')) // returns DLR
